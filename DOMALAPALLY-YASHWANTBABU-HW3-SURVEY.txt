@@ -1,4 +1,139 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Yashwanth Babu Domalapally </title>
+</head>
+<body>
+<h3 class="header1"> IWS </h3>
+<p class="para1">Hover image to see Name and ID</p>
+ <table>
+ <tr>
+ <td>
+ <div class="flip-box">
+ <div class="flip-box-inner">
+ <div class="flip-box-front">
+ <img src="C:\Users\domel\OneDrive\Pictures\Yashwanth.jpg" / alt="MY Pic" 
+style="width:400px;height:300px">
+ </div>
+ <div class="flip-box-back">
+ <h2>Yashwanth Babu Domalapally</h2>
+ <p>UML ID 02072828</p>
+ </div>
+<td class="col1">
+ <table>
+ <tr>
+ <td>
+ <h2>Yashwanth Babu</h2>
+ </td>
+ <td>
+ <h2>Domalapally</h2>
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <h3>02072828</h3>
+ </td>
+ </tr>
+ </table>
+ </td>
+ </tr>
+ </table>
+ <table class="table">
+ <tr class="tr">
+ <td class="td">
+ <h2 style="border-bottom: o.5 px solid;">INSTITUTION</h2>
+ <ul class="ul">
+ <li>SIET</li>
+ <li>SRI GAYATRI</li>
+ <li>GVPHS</li>
+ </ul>
+ </td>
+ <td class="td">
+ <h2 style="border-bottom: 0.5px solid;">BOARD</h2>
+ <ol class="ol">
+ <li>JNTUH</li>
+ <li>TSBIE</li>
+ <li>SSC</li>
+ </ol>
+ </td>
+ <td class="td">
+ <h2 style="border-bottom: 0.5px solid;">PERCENTAGE/CGPA</h2>
+ <ol class="ol">
+ <li>80</li>
+ <li>95</li>
+ <li>9.8</li>
+ </ol>
+ </td>
+ </tr>
+ </table>
+ 
+ </div>
+ </div>
+ </td>
+ 
+ <style>
+ .ol{
+ font-weight: bold;
+ font-style: Times New Roman;
+ font-display: set;
+ }
+ .table tr td {
+ border: 1px solid;
+ border-bottom: 1px solid;
+ }
+ .col1 {
+ text-align: center;
+ }
+ .header1 {
+ text-align: center;
+ font-family: Arial, Helvetica;
+ }
+ .para1 {
+ color: green;
+ text-align: center;
+ font-family: "Lucida Console", "Courier New", monospace;
+ }
+ .flip-box {
+ background-color: Blue;
+ width: 400px;
+ height: 300px;
+ border: 1px solid #f1f1f1;
+ perspective: 1000px;
+ }
+ .flip-box-inner {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ text-align: right;
+ transition: transform 0.6s;
+ transform-style: preserve-4d;
+ }
+ .flip-box:hover .flip-box-inner {
+ transform: rotate(180deg);
+ }
+ .flip-box-front,
+ .flip-box-back {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ -webkit-backface-visibility: hidden;
+ backface-visibility: hidden;
+ }
+ .flip-box-front {
+ background-color: #bbb;
+ color: black;
+ }
+ .flip-box-back {
+ background-color: dodgergreen;
+ color: black;
+ transform: rotate(180deg);
+ }
+ </style>
+</body>
+</html>
     
     Title: Booking Room for 
     Description: Booking a hotel 
